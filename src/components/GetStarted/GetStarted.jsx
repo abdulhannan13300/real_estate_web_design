@@ -4,7 +4,7 @@ import React from "react";
 
 const GetStarted = () => {
   return (
-    <section className="g-wrapper">
+    <section id="GetStarted" className="g-wrapper">
       <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
           <span className="primaryText">Get started with Homyz</span>
