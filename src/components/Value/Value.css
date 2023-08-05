@@ -44,3 +44,30 @@
 .accordian-button .primaryText {
    font-size: 1.1rem;
 }
+
+@media (max-width: 1024px) {
+   .v-container {
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 767px) {
+   .accordian-button .primaryText {
+      font-size: 0.8rem;
+   }
+   .icon {
+      padding: 8px;
+   }
+}
+
+/* @media (max-width: 370px) {
+   .accordian-button .primaryText {
+      font-size: 0.6rem;
+   }
+   .accordian-button .secondaryText {
+      font-size: 0.4rem;
+   }
+   .icon {
+      padding: 5px;
+   }
+} */
